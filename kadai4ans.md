@@ -4,7 +4,7 @@
 画素の濃度ヒストグラムを生成する。
 
 
-ORG=imread('view.png'); % 原画像の入力  
+ORG=imread('sushi.png'); % 原画像の入力  
 ORG= rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換  
 ![img](http://i.imgur.com/x390JSF.png)  
 図1 白黒画像
