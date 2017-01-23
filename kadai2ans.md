@@ -6,7 +6,7 @@
 まず、画像から白黒画像を生成する。
 
 clear; % 変数のオールクリア  
-ORG=imread('view.png'); % 原画像の入力  
+ORG=imread('sushi.png'); % 原画像の入力  
 ORG = rgb2gray(ORG); colormap(gray); colorbar;  
 imagesc(ORG); axis image; % 画像の表示  
 
@@ -46,5 +46,7 @@ IMG = IMG0 + IMG1 + IMG2 + IMG3 + OMG4 + IMG5 + IMG6;
 図4 8階調
 
 まとめ
+
 ２階調，４階調，８階調の画像を生成した。
+
 階調数に応じて8階調、4階調、2階調の順に画像が鮮明になっていることが確認できる。  
