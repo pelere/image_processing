@@ -18,6 +18,7 @@ imagesc(ORG); axis image; % ‰æ‘œ‚Ì•\¦
 % ‚QŠK’²‰æ‘œ‚Ì¶¬  
 IMG = ORG>128;  
 imagesc(IMG); colormap(gray); colorbar;  axis image;
+
 ![img](http://i.imgur.com/ueC87F2.png)  
 }2 2ŠK’²
 
