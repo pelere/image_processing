@@ -74,7 +74,7 @@ imagesc(IMG); colormap(gray); colorbar;
 
 結果は図5のようになった。
 
-![Imgur](http://i.imgur.com/9wnf96G.png)
+![Imgur](http://i.imgur.com/sdYJ69b.png)
 
 図5　輝度値を192に設定した画像
 
